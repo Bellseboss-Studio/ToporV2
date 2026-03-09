@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d7df9a0b824b93ba47098826dc2e88, type: 3}
+  m_Name: LevelStartController
+  m_EditorClassIdentifier: Assembly-CSharp::LevelStartController
+  timeOfGame: 10
+  steps:
+  - stepIdentifier: {fileID: 11400000, guid: faed4e7ca1c369f428cdbf6a8e82ead6, type: 2}
+    weight: 1
+    toposToSpawn:
+    - toposToSpawn: a
+      countOfEnemyToSpawnOfMin: 60
+      deltaSpawn: 0
+    timeLineStep: {fileID: 0}
+  levelIndex: 1
+  canPlayCinematic: 0

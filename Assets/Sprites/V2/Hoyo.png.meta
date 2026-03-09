@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: db4ed751f2c4fb64e9524101ae669621
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4120067017344181434
+    second: Hoyo_0
+  - first:
+      213: -208912501214630954
+    second: Hoyo_1
+  - first:
+      213: 3560379288975395414
+    second: Hoyo_2
+  - first:
+      213: -4781439931449883333
+    second: Hoyo_3
+  - first:
+      213: -5559347088857352777
+    second: Hoyo_4
+  - first:
+      213: 8846934738716589307
+    second: Hoyo_5
+  - first:
+      213: 5915133234611115593
+    second: Hoyo_6
+  - first:
+      213: -3207694983853213296
+    second: Hoyo_7
+  - first:
+      213: -3279288435511728083
+    second: Hoyo_8
+  - first:
+      213: 8329112562980449321
+    second: Hoyo_9
+  - first:
+      213: 2702854633234215913
+    second: Hoyo_10
+  - first:
+      213: -7359250980402286918
+    second: Hoyo_11
+  - first:
+      213: 9160002621628648274
+    second: Hoyo_12
+  - first:
+      213: 7063984439005638305
+    second: Hoyo_13
+  - first:
+      213: 1280368021729771547
+    second: Hoyo_14
+  - first:
+      213: -4308582727953928362
+    second: Hoyo_15
+  - first:
+      213: -3014594749217001595
+    second: Hoyo_16
+  - first:
+      213: -8773488172990792571
+    second: Hoyo_17
+  - first:
+      213: -7213444618518069838
+    second: Hoyo_18
+  - first:
+      213: 9036029397815916947
+    second: Hoyo_19
+  - first:
+      213: 5020784259526958940
+    second: Hoyo_20
+  - first:
+      213: -7401302250233110329
+    second: Hoyo_21
+  - first:
+      213: 2683746494509698430
+    second: Hoyo_22
+  - first:
+      213: 7613525235874133916
+    second: Hoyo_23
+  - first:
+      213: -2819523448076639413
+    second: Hoyo_24
+  - first:
+      213: -1509322030702652568
+    second: Hoyo_25
+  - first:
+      213: 8324956900374919921
+    second: Hoyo_26
+  - first:
+      213: -2433963228746526054
+    second: Hoyo_27
+  - first:
+      213: 2289328428755337273
+    second: Hoyo_28
+  - first:
+      213: 3980454179899701957
+    second: Hoyo_29
+  - first:
+      213: 5503699475511055606
+    second: Hoyo_30
+  - first:
+      213: 2688918761705543272
+    second: Hoyo_31
+  - first:
+      213: 1729614967819458285
+    second: Hoyo_32
+  - first:
+      213: 910615528193460755
+    second: Hoyo_33
+  - first:
+      213: 2473940997732195587
+    second: Hoyo_34
+  - first:
+      213: 8343238489609017490
+    second: Hoyo_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoyo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 585
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab46a9b8f1b6d2930800000000000000
+      internalID: 4120067017344181434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 585
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dba6ffdf2bc91df0800000000000000
+      internalID: -208912501214630954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_2
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 585
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a49018912096130800000000000000
+      internalID: 3560379288975395414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_3
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 585
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35cf0b27b9e4adb0800000000000000
+      internalID: -4781439931449883333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_4
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 585
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b53e81074b39d2b0800000000000000
+      internalID: -5559347088857352777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_5
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 585
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcf3449540a6ca70800000000000000
+      internalID: 8846934738716589307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9465a105656c61250800000000000000
+      internalID: 5915133234611115593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_7
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09970a3486afb73d0800000000000000
+      internalID: -3207694983853213296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_8
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28e645da80ad72d0800000000000000
+      internalID: -3279288435511728083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_9
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 0
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c61ba1fb3f69370800000000000000
+      internalID: 8329112562980449321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_10
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3b175f7f7728520800000000000000
+      internalID: 2702854633234215913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoyo_11
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 0
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe2d2c6930bed990800000000000000
+      internalID: -7359250980402286918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6bff282276e457e4380cedd5c192af09
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":2.0},"gridSpriteSize":{"x":585.0,"y":585.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Hoyo_0: 4120067017344181434
+      Hoyo_1: -208912501214630954
+      Hoyo_10: 2702854633234215913
+      Hoyo_11: -7359250980402286918
+      Hoyo_2: 3560379288975395414
+      Hoyo_3: -4781439931449883333
+      Hoyo_4: -5559347088857352777
+      Hoyo_5: 8846934738716589307
+      Hoyo_6: 5915133234611115593
+      Hoyo_7: -3207694983853213296
+      Hoyo_8: -3279288435511728083
+      Hoyo_9: 8329112562980449321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

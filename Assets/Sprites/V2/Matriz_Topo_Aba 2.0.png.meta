@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: edd0e30820a38d2449d933eaf79df0ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2138077536804204316
+    second: Matriz_Topo_Aba 2.0_0
+  - first:
+      213: -6920859996294065335
+    second: Matriz_Topo_Aba 2.0_1
+  - first:
+      213: -2681690466230463516
+    second: Matriz_Topo_Aba 2.0_2
+  - first:
+      213: -5705737256359588060
+    second: Matriz_Topo_Aba 2.0_3
+  - first:
+      213: 9202515032367540644
+    second: Matriz_Topo_Aba 2.0_4
+  - first:
+      213: 3664556057949068507
+    second: Matriz_Topo_Aba 2.0_5
+  - first:
+      213: -8366143840490409264
+    second: Matriz_Topo_Aba 2.0_6
+  - first:
+      213: -444511645261954941
+    second: Matriz_Topo_Aba 2.0_7
+  - first:
+      213: 9002127825114929110
+    second: Matriz_Topo_Aba 2.0_8
+  - first:
+      213: 5258541852898765774
+    second: Matriz_Topo_Aba 2.0_9
+  - first:
+      213: -2277377713013896196
+    second: Matriz_Topo_Aba 2.0_10
+  - first:
+      213: 3034038477030766072
+    second: Matriz_Topo_Aba 2.0_11
+  - first:
+      213: -98102167939527942
+    second: Matriz_Topo_Aba 2.0_12
+  - first:
+      213: 7206574996324182169
+    second: Matriz_Topo_Aba 2.0_13
+  - first:
+      213: -7751332954680395330
+    second: Matriz_Topo_Aba 2.0_14
+  - first:
+      213: -4583030055479437201
+    second: Matriz_Topo_Aba 2.0_15
+  - first:
+      213: 2898408531996148717
+    second: Matriz_Topo_Aba 2.0_16
+  - first:
+      213: -7876985124725716999
+    second: Matriz_Topo_Aba 2.0_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_0
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 866
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e01b8ceec50452e0800000000000000
+      internalID: -2138077536804204316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 902
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9435eac608a24ff90800000000000000
+      internalID: -6920859996294065335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 866
+        width: 123
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e318caaab8b8cad0800000000000000
+      internalID: -2681690466230463516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_3
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 866
+        width: 124
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f89f4123621d0b0800000000000000
+      internalID: -5705737256359588060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_4
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 866
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9a5783aa6e5bf70800000000000000
+      internalID: 9202515032367540644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_5
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 865
+        width: 130
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc5f8da15e1bd230800000000000000
+      internalID: 3664556057949068507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 876
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d23fb7b08c75eb80800000000000000
+      internalID: -8366143840490409264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 280
+        width: 130
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38003a58307c4d9f0800000000000000
+      internalID: -444511645261954941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_8
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 281
+        width: 130
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d792a6cf8bfdec70800000000000000
+      internalID: 9002127825114929110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_9
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 389
+        width: 26
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb2e8a44f71af840800000000000000
+      internalID: 5258541852898765774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_10
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 280
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb4a6c39012560e0800000000000000
+      internalID: -2277377713013896196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_11
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 280
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5394a7be11b1a20800000000000000
+      internalID: 3034038477030766072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_12
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 316
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afac448199873aef0800000000000000
+      internalID: -98102167939527942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_13
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 288
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9986d1fe6c5e20460800000000000000
+      internalID: 7206574996324182169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_14
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 291
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9fe7cfebbbd6490800000000000000
+      internalID: -7751332954680395330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_15
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 288
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68953c427ec560c0800000000000000
+      internalID: -4583030055479437201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_16
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 286
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de387931437393820800000000000000
+      internalID: 2898408531996148717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Aba 2.0_17
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 288
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f700bb53c35fa290800000000000000
+      internalID: -7876985124725716999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Matriz_Topo_Aba 2.0_0: -2138077536804204316
+      Matriz_Topo_Aba 2.0_1: -6920859996294065335
+      Matriz_Topo_Aba 2.0_10: -2277377713013896196
+      Matriz_Topo_Aba 2.0_11: 3034038477030766072
+      Matriz_Topo_Aba 2.0_12: -98102167939527942
+      Matriz_Topo_Aba 2.0_13: 7206574996324182169
+      Matriz_Topo_Aba 2.0_14: -7751332954680395330
+      Matriz_Topo_Aba 2.0_15: -4583030055479437201
+      Matriz_Topo_Aba 2.0_16: 2898408531996148717
+      Matriz_Topo_Aba 2.0_17: -7876985124725716999
+      Matriz_Topo_Aba 2.0_2: -2681690466230463516
+      Matriz_Topo_Aba 2.0_3: -5705737256359588060
+      Matriz_Topo_Aba 2.0_4: 9202515032367540644
+      Matriz_Topo_Aba 2.0_5: 3664556057949068507
+      Matriz_Topo_Aba 2.0_6: -8366143840490409264
+      Matriz_Topo_Aba 2.0_7: -444511645261954941
+      Matriz_Topo_Aba 2.0_8: 9002127825114929110
+      Matriz_Topo_Aba 2.0_9: 5258541852898765774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

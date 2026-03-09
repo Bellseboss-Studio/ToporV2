@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 7db3d27594e0ea84eac0e1478f55e8fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7116768564290944808
+    second: Matriz_Topo_Arr 2.0_0
+  - first:
+      213: 6918712832290018192
+    second: Matriz_Topo_Arr 2.0_1
+  - first:
+      213: 2867022845230999644
+    second: Matriz_Topo_Arr 2.0_2
+  - first:
+      213: 2888993806552839744
+    second: Matriz_Topo_Arr 2.0_3
+  - first:
+      213: 2398388109311429518
+    second: Matriz_Topo_Arr 2.0_4
+  - first:
+      213: -1074123671539996628
+    second: Matriz_Topo_Arr 2.0_5
+  - first:
+      213: 3193132714213323473
+    second: Matriz_Topo_Arr 2.0_6
+  - first:
+      213: 1451779251276681486
+    second: Matriz_Topo_Arr 2.0_7
+  - first:
+      213: 4066049834362987991
+    second: Matriz_Topo_Arr 2.0_8
+  - first:
+      213: -5019575669189617559
+    second: Matriz_Topo_Arr 2.0_9
+  - first:
+      213: 6821564855878287696
+    second: Matriz_Topo_Arr 2.0_10
+  - first:
+      213: 8082559365290488306
+    second: Matriz_Topo_Arr 2.0_11
+  - first:
+      213: 2874769304060665883
+    second: Matriz_Topo_Arr 2.0_12
+  - first:
+      213: 6323009195540871289
+    second: Matriz_Topo_Arr 2.0_13
+  - first:
+      213: -5080318378205320057
+    second: Matriz_Topo_Arr 2.0_14
+  - first:
+      213: 5848546779139509714
+    second: Matriz_Topo_Arr 2.0_15
+  - first:
+      213: 7551854598414423518
+    second: Matriz_Topo_Arr 2.0_16
+  - first:
+      213: 4535018401828816690
+    second: Matriz_Topo_Arr 2.0_17
+  - first:
+      213: -4327327739809826773
+    second: Matriz_Topo_Arr 2.0_18
+  - first:
+      213: 4952751216289844679
+    second: Matriz_Topo_Arr 2.0_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 863
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d085c072b82c3d90800000000000000
+      internalID: -7116768564290944808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 861
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093559ff9a4340060800000000000000
+      internalID: 6918712832290018192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 850
+        width: 140
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c586cec6616b9c720800000000000000
+      internalID: 2867022845230999644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_3
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 861
+        width: 173
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046b2ed7f84c71820800000000000000
+      internalID: 2888993806552839744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_4
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 859
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b47093749c84120800000000000000
+      internalID: 2398388109311429518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_5
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 850
+        width: 142
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2825013632f711f0800000000000000
+      internalID: -1074123671539996628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_6
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 691
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d23d5f1949405c20800000000000000
+      internalID: 3193132714213323473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 106
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0111a48981c52410800000000000000
+      internalID: 1451779251276681486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 80
+        width: 142
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5ed3018c28d6830800000000000000
+      internalID: 4066049834362987991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_9
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 275
+        width: 173
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96852c21682e65ab0800000000000000
+      internalID: -5019575669189617559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_10
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 320
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0510aee18111bae50800000000000000
+      internalID: 6821564855878287696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_11
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f175246be40b2070800000000000000
+      internalID: 8082559365290488306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_12
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 277
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10abbb637b35e720800000000000000
+      internalID: 2874769304060665883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_13
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 276
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978fdb3dc57dfb750800000000000000
+      internalID: 6323009195540871289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_14
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 278
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cee290a551f79b0800000000000000
+      internalID: -5080318378205320057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_15
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 283
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd8dd60f463a2150800000000000000
+      internalID: 5848546779139509714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_16
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 286
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed554edeeb39dc860800000000000000
+      internalID: 7551854598414423518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_17
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 205
+        width: 26
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237cdda753f9fee30800000000000000
+      internalID: 4535018401828816690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_18
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 270
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28f0f9095e32f3c0800000000000000
+      internalID: -4327327739809826773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Matriz_Topo_Arr 2.0_19
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 182
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd07db8df4bbb440800000000000000
+      internalID: 4952751216289844679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Matriz_Topo_Arr 2.0_0: -7116768564290944808
+      Matriz_Topo_Arr 2.0_1: 6918712832290018192
+      Matriz_Topo_Arr 2.0_10: 6821564855878287696
+      Matriz_Topo_Arr 2.0_11: 8082559365290488306
+      Matriz_Topo_Arr 2.0_12: 2874769304060665883
+      Matriz_Topo_Arr 2.0_13: 6323009195540871289
+      Matriz_Topo_Arr 2.0_14: -5080318378205320057
+      Matriz_Topo_Arr 2.0_15: 5848546779139509714
+      Matriz_Topo_Arr 2.0_16: 7551854598414423518
+      Matriz_Topo_Arr 2.0_17: 4535018401828816690
+      Matriz_Topo_Arr 2.0_18: -4327327739809826773
+      Matriz_Topo_Arr 2.0_19: 4952751216289844679
+      Matriz_Topo_Arr 2.0_2: 2867022845230999644
+      Matriz_Topo_Arr 2.0_3: 2888993806552839744
+      Matriz_Topo_Arr 2.0_4: 2398388109311429518
+      Matriz_Topo_Arr 2.0_5: -1074123671539996628
+      Matriz_Topo_Arr 2.0_6: 3193132714213323473
+      Matriz_Topo_Arr 2.0_7: 1451779251276681486
+      Matriz_Topo_Arr 2.0_8: 4066049834362987991
+      Matriz_Topo_Arr 2.0_9: -5019575669189617559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
