@@ -10,11 +10,13 @@ public abstract class Fruit : MonoBehaviour
     public event Action OnFruitDie;
     private TeaTime _idle, _game, _bite, _dead, _destroyed;
     private bool _areYouDead;
+    private PointToFruit _parent;
     public bool AreDead => _areYouDead;
     public string Id => id;
 
     public void Configure(PointToFruit parent)
     {
+        _parent = parent;
         transform.SetParent(parent.transform);
         transform.localPosition = Vector3.zero;
         ConfigureTeaTime();
@@ -58,7 +60,7 @@ public abstract class Fruit : MonoBehaviour
         {
             if (!_areYouDead)
             {
-                _idle.Play();
+                _game.Play();
             }
         });
         
@@ -77,6 +79,10 @@ public abstract class Fruit : MonoBehaviour
         }).Add(timeToDestroyed).Add(() =>
         {
             //ServiceLocator.Instance.GetService<IDebugCustom>().DebugText($"Fruit {id}: Destroyed End");
+            if (_parent != null)
+            {
+                _parent.HasFruit = false;
+            }
             //gameObject.SetActive(false);
         });
     }

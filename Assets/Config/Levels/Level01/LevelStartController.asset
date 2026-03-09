@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d7df9a0b824b93ba47098826dc2e88, type: 3}
   m_Name: LevelStartController
   m_EditorClassIdentifier: Assembly-CSharp::LevelStartController
-  timeOfGame: 10
+  timeOfGame: 60
   steps:
   - stepIdentifier: {fileID: 11400000, guid: faed4e7ca1c369f428cdbf6a8e82ead6, type: 2}
     weight: 1
     toposToSpawn:
     - toposToSpawn: a
-      countOfEnemyToSpawnOfMin: 60
+      countOfEnemyToSpawnOfMin: 30
       deltaSpawn: 0
     timeLineStep: {fileID: 0}
   levelIndex: 1

@@ -2,7 +2,6 @@
 
 public class PointToTopo : MonoBehaviour
 {
-    [SerializeField] private int position;
     [SerializeField] private bool isFree = true;
     [SerializeField] private bool otherTopoRised;
     [SerializeField] private Animator animator;
@@ -11,8 +10,7 @@ public class PointToTopo : MonoBehaviour
     {
         animator = gameObject.GetComponentInChildren<Animator>();
     }
-
-    public int Position => position;
+    
     public bool IsFree => isFree;
     
     public void SetFree(bool free)

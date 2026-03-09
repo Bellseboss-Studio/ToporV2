@@ -20,7 +20,7 @@ public class FruitsMono : MonoBehaviour
 
     private void Start()
     {
-        _spawn = this.tt().Pause().Loop(1,t =>
+        _spawn = this.tt().Pause().Loop(1, t =>
         {
             CalculateFruitsPercentage();
             foreach (var relationFruit in relationFruits)
@@ -28,21 +28,27 @@ public class FruitsMono : MonoBehaviour
                 //Debug.Log(relationFruit.fruitId + " " + relationFruit.quantity);
                 for (var i = 0; i < relationFruit.quantity; i++)
                 {
-                    var fruit = factoryOfFruits.SpawnFruit(relationFruit.fruitId, map.GetPointToFruitByPosition(map.GetRandomPositionToFruit()));
+                    var randomPosition = map.GetRandomPositionToFruit();
+                    if (randomPosition == -1)
+                    {
+                        Debug.LogWarning("No hay espacio disponible para más frutas");
+                        continue;
+                    }
+
+                    var fruit = factoryOfFruits.SpawnFruit(relationFruit.fruitId,
+                        map.GetPointToFruitByPosition(randomPosition));
                     fruit.OnFruitDie += FruitOnOnFruitDie;
                 }
             }
+
             t.Break();
-        }).Add(() =>
-        {
-            Finished = true;
-        });
+        }).Add(() => { Finished = true; });
     }
 
     private void FruitOnOnFruitDie()
     {
         //validate if all fruits are dead
-        _allFruitsDead = map.GetAllFruits().All(pointToFruit => pointToFruit.GetFruit().AreDead);
+        _allFruitsDead = map.GetAllFruits().All(pointToFruit => pointToFruit.GetFruit() != null && pointToFruit.GetFruit().AreDead);
     }
 
     private void CalculateFruitsPercentage()
@@ -51,10 +57,13 @@ public class FruitsMono : MonoBehaviour
         foreach (var relationFruit in relationFruits)
         {
             relationFruit.quantity = (int)(totalFruits * relationFruit.percentage) / 100;
-            //Debug.Log(relationFruit.fruitId + " " + relationFruit.quantity + " to " + totalFruits);
         }
-        var rest = totalFruits - relationFruits.Sum(relationFruit => relationFruit.quantity);
-        //Debug.Log($"rest: {rest}");
-        relationFruits[0].quantity += rest;
+        
+        // Distribuir el resto (por redondeo) solo en el ultimo tipo de fruta
+        var rest = totalFruits - relationFruits.Sum(fruit => fruit.quantity);
+        if (rest > 0 && relationFruits.Length > 0)
+        {
+            relationFruits[relationFruits.Length - 1].quantity += rest;
+        }
     }
 }

@@ -3,10 +3,8 @@ using UnityEngine;
 
 public class PointToFruit : MonoBehaviour
 {
-    [SerializeField] private int position;
     [ReadOnly][SerializeField] private bool hasFruit;
     private Fruit fruit;
-    public int Position => position;
     
     private void Start()
     {

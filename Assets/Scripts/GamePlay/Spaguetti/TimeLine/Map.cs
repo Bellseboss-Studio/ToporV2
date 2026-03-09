@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Map : MonoBehaviour, IMap
 {
@@ -21,11 +23,20 @@ public class Map : MonoBehaviour, IMap
 
     public PointToTopo GetPointToTopoByPosition(int position)
     {
-        return (from pointToTopo in pointToTopos where pointToTopo.Position == position select pointToTopo).FirstOrDefault();
+        if (position >= 0 && position < pointToTopos.Count)
+        {
+            return pointToTopos[position];
+        }
+        throw new Exception("Position out of range for topos");
     }
     public PointToFruit GetPointToFruitByPosition(int position)
     {
-        return (from pointToFruit in pointToFruits where pointToFruit.Position == position select pointToFruit).FirstOrDefault();
+        // Prioriza el indice de la lista; mantiene compatibilidad con datos que usen Position.
+        if (position >= 0 && position < pointToFruits.Count)
+        {
+            return pointToFruits[position];
+        }
+        throw new Exception("Position out of range for fruits");
     }
 
     public int GetRandomPositionToTopo()
@@ -38,8 +49,7 @@ public class Map : MonoBehaviour, IMap
         }
 
         var position = Random.Range(0, listOfFreeTopos.Count);
-        var result = listOfFreeTopos[position];
-        return result.Position;
+        return position;
     }
 
     public void SaveTopo(PointToTopo topo)
@@ -54,18 +64,26 @@ public class Map : MonoBehaviour, IMap
 
     public int GetRandomPositionToFruit()
     {
-        var position = Random.Range(0, pointToFruits.Count);
-        var tries = 0;
-        while (pointToFruits[position].HasFruit)
+        // Obtener todas las posiciones libres
+        var availablePositions = new List<int>();
+        for (int i = 0; i < pointToFruits.Count; i++)
         {
-            position = Random.Range(0, pointToFruits.Count);
-            tries++;
-            if (tries > 100)
+            if (!pointToFruits[i].HasFruit)
             {
-                Debug.LogError("No more space for fruits");
-                break;
+                availablePositions.Add(i);
             }
         }
+
+        // Validar que hay espacio disponible
+        if (availablePositions.Count == 0)
+        {
+            Debug.LogError("No more space for fruits");
+            return -1;
+        }
+
+        // Elegir una posición aleatoria de las disponibles
+        var randomIndex = Random.Range(0, availablePositions.Count);
+        var position = availablePositions[randomIndex];
         pointToFruits[position].HasFruit = true;
         return position;
     }

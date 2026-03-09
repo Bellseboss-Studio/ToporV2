@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NormalTopo
   id: a
-  damage: 0
-  timeToOutOfGround: 1
+  damage: 1
+  timeToOutOfGround: 1.2
   timeToInit: 1
   timeToSearch: 1
   timeToAction: 1
@@ -72,13 +72,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimationControllerTopo
   spriteRenderer: {fileID: 6637796515603059949}
   animator: {fileID: 5391892496419546811}
-  rise: 1
-  Search: 1
-  attackLeftAndRight: 1
-  attackTop: 1
-  attackBottom: 1
-  End: 1
-  Dead: 1
+  rise: rise
+  Search: search
+  attackLeftAndRight: attack-side
+  attackTop: attack-top
+  attackBottom: attack-bottom
+  End: end
+  Dead: dead
 --- !u!1 &1887442451967284771
 GameObject:
   m_ObjectHideFlags: 0
